@@ -1,0 +1,615 @@
+No Pre-train
+Epoch:0 Loss 3.3074 Prec@1 25.571 Prec@5 57.521
+Epoch:1 Loss 3.1441 Prec@1 32.607 Prec@5 65.958
+Epoch:2 Loss 3.1673 Prec@1 34.388 Prec@5 67.376
+Epoch:3 Loss 3.2763 Prec@1 34.786 Prec@5 68.603
+Epoch:4 Loss 3.1821 Prec@1 36.445 Prec@5 69.554
+Epoch:5 Loss 3.2582 Prec@1 38.952 Prec@5 70.764
+Epoch:6 Loss 2.9708 Prec@1 41.891 Prec@5 73.945
+Epoch:7 Loss 2.9668 Prec@1 41.649 Prec@5 74.257
+Epoch:8 Loss 2.9586 Prec@1 41.857 Prec@5 74.550
+Epoch:9 Loss 2.9474 Prec@1 42.393 Prec@5 74.654
+Test:0 Loss 2.9472 Prec@1 42.756 Prec@5 74.637
+
+Epoch:0 Loss 2.2106 Prec@1 51.452 Prec@5 81.950
+Epoch:1 Loss 2.2657 Prec@1 53.510 Prec@5 83.264
+Epoch:2 Loss 2.2665 Prec@1 55.947 Prec@5 83.869
+Epoch:3 Loss 2.4418 Prec@1 52.213 Prec@5 82.261
+Epoch:4 Loss 2.5565 Prec@1 54.495 Prec@5 80.377
+Epoch:5 Loss 2.4921 Prec@1 53.302 Prec@5 82.659
+Epoch:6 Loss 2.3189 Prec@1 56.967 Prec@5 84.423
+Epoch:7 Loss 2.3304 Prec@1 56.898 Prec@5 84.526
+Epoch:8 Loss 2.3523 Prec@1 56.881 Prec@5 84.889
+Epoch:9 Loss 2.3364 Prec@1 57.071 Prec@5 85.010
+Test:0 Loss 1.9041 Prec@1 65.125 Prec@5 87.801
+
+Epoch:0 Loss 1.9837 Prec@1 55.411 Prec@5 84.872
+Epoch:1 Loss 2.0571 Prec@1 55.826 Prec@5 84.803
+Epoch:2 Loss 2.2142 Prec@1 55.290 Prec@5 84.803
+Epoch:3 Loss 2.1844 Prec@1 57.227 Prec@5 85.270
+Epoch:4 Loss 2.3343 Prec@1 55.481 Prec@5 84.872
+Epoch:5 Loss 2.2636 Prec@1 56.760 Prec@5 85.373
+Epoch:6 Loss 2.2550 Prec@1 57.261 Prec@5 85.339
+Epoch:7 Loss 2.2471 Prec@1 57.261 Prec@5 85.443
+Epoch:8 Loss 2.2610 Prec@1 57.417 Prec@5 85.408
+Epoch:9 Loss 2.2551 Prec@1 57.901 Prec@5 85.235
+Epoch:0 Loss 1.9576 Prec@1 63.515 Prec@5 87.913
+
+Epoch:0 Loss 1.9548 Prec@1 56.881 Prec@5 85.996
+Epoch:1 Loss 2.1051 Prec@1 55.360 Prec@5 84.976
+Epoch:2 Loss 2.1888 Prec@1 57.019 Prec@5 84.215
+Epoch:3 Loss 2.2152 Prec@1 56.553 Prec@5 84.267
+Epoch:4 Loss 2.3449 Prec@1 55.930 Prec@5 83.645
+Epoch:5 Loss 2.2260 Prec@1 57.676 Prec@5 84.941
+Epoch:6 Loss 2.2600 Prec@1 58.057 Prec@5 85.010
+Epoch:7 Loss 2.2430 Prec@1 58.109 Prec@5 85.097
+Epoch:8 Loss 2.2414 Prec@1 58.316 Prec@5 84.976
+Epoch:9 Loss 2.2513 Prec@1 58.402 Prec@5 84.820
+Test:0 Loss 1.9321 Prec@1 64.312 Prec@5 87.562
+
+group convs in conv1d layer
+Epoch:0 Loss 1.8483 Prec@1 55.100 Prec@5 84.803
+Epoch:1 Loss 1.9825 Prec@1 56.587 Prec@5 85.080
+Epoch:2 Loss 2.0085 Prec@1 57.227 Prec@5 85.131
+Epoch:3 Loss 2.1000 Prec@1 56.207 Prec@5 86.013
+Epoch:4 Loss 2.0795 Prec@1 56.760 Prec@5 85.702
+Epoch:5 Loss 2.1598 Prec@1 57.382 Prec@5 85.443
+Epoch:6 Loss 2.1048 Prec@1 57.797 Prec@5 85.754
+Epoch:7 Loss 2.1205 Prec@1 57.244 Prec@5 85.650
+Epoch:8 Loss 2.1181 Prec@1 57.452 Prec@5 85.927
+Epoch:9 Loss 2.1296 Prec@1 57.797 Prec@5 85.823
+Test:0 Loss 1.8397 Prec@1 64.041 Prec@5 88.279
+
+group convs in dsc block
+Epoch:0 Loss 1.9507 Prec@1 54.046 Prec@5 83.524
+Epoch:1 Loss 2.0137 Prec@1 55.342 Prec@5 84.198
+Epoch:2 Loss 2.0983 Prec@1 55.515 Prec@5 84.613
+Epoch:3 Loss 2.0965 Prec@1 56.241 Prec@5 84.595
+Epoch:4 Loss 2.0714 Prec@1 56.795 Prec@5 85.045
+Epoch:5 Loss 2.0821 Prec@1 57.019 Prec@5 84.716
+Epoch:6 Loss 2.0847 Prec@1 57.054 Prec@5 84.976
+Epoch:7 Loss 2.1032 Prec@1 56.985 Prec@5 85.010
+Epoch:8 Loss 2.1028 Prec@1 56.967 Prec@5 84.924
+Epoch:9 Loss 2.1041 Prec@1 56.933 Prec@5 84.959
+Test:0 Loss 1.8552 Prec@1 63.355 Prec@5 87.642
+
+normal convs througout
+Epoch:0 Loss 2.3939 Prec@1 49.378 Prec@5 81.311
+Epoch:1 Loss 2.3068 Prec@1 53.406 Prec@5 83.524
+Epoch:2 Loss 2.4637 Prec@1 51.677 Prec@5 81.553
+Epoch:3 Loss 2.5660 Prec@1 51.729 Prec@5 80.792
+Epoch:4 Loss 2.2843 Prec@1 56.570 Prec@5 84.526
+Epoch:5 Loss 2.2604 Prec@1 57.123 Prec@5 85.062
+Epoch:6 Loss 2.2750 Prec@1 57.054 Prec@5 85.028
+Epoch:7 Loss 2.2786 Prec@1 56.760 Prec@5 84.976
+Epoch:8 Loss 2.2937 Prec@1 56.967 Prec@5 85.080
+Epoch:9 Loss 2.3017 Prec@1 56.933 Prec@5 85.028
+Test:0 Loss 1.8509 Prec@1 65.061 Prec@5 88.136
+
+Epoch:0 Loss 2.7260 Prec@1 33.022 Prec@5 68.845
+Epoch:1 Loss 2.9957 Prec@1 36.151 Prec@5 69.692
+Epoch:2 Loss 2.8202 Prec@1 38.849 Prec@5 74.015
+Epoch:0 Loss 5.5485 Prec@1 0.277 Prec@5 1.487
+Epoch:0 Loss 2.2108 Prec@1 52.326 Prec@5 82.794
+Epoch:1 Loss 2.2338 Prec@1 52.948 Prec@5 83.797
+Epoch:2 Loss 2.3006 Prec@1 54.608 Prec@5 83.175
+Epoch:3 Loss 2.4282 Prec@1 53.260 Prec@5 83.002
+Epoch:4 Loss 2.3610 Prec@1 55.559 Prec@5 83.607
+Epoch:5 Loss 2.4572 Prec@1 55.646 Prec@5 82.743
+Epoch:6 Loss 2.3274 Prec@1 56.320 Prec@5 84.385
+Epoch:7 Loss 2.3467 Prec@1 56.441 Prec@5 84.506
+Epoch:8 Loss 2.3511 Prec@1 56.493 Prec@5 84.316
+Epoch:9 Loss 2.3783 Prec@1 56.389 Prec@5 84.351
+Test:0 Loss 2.0037 Prec@1 63.929 Prec@5 87.115
+
+Epoch:0 Loss 2.2406 Prec@1 50.112 Prec@5 81.774
+Epoch:1 Loss 2.6443 Prec@1 48.400 Prec@5 79.284
+
+rgb+depth
+Epoch:0 Loss 2.1211 Prec@1 53.035 Prec@5 83.244
+Epoch:1 Loss 2.4320 Prec@1 50.769 Prec@5 79.958
+Epoch:2 Loss 2.3285 Prec@1 53.398 Prec@5 83.002
+Epoch:3 Loss 2.5420 Prec@1 52.170 Prec@5 81.515
+Epoch:4 Loss 2.9359 Prec@1 46.758 Prec@5 77.659
+Epoch:5 Loss 2.5155 Prec@1 54.124 Prec@5 82.397
+Epoch:6 Loss 2.3513 Prec@1 57.168 Prec@5 84.420
+Epoch:7 Loss 2.3285 Prec@1 57.548 Prec@5 84.575
+Epoch:8 Loss 2.3241 Prec@1 57.669 Prec@5 84.956
+Epoch:9 Loss 2.3304 Prec@1 57.392 Prec@5 84.956
+Epoch:0 Loss 1.9201 Prec@1 65.795 Prec@5 88.184
+
+single stream depth
+Epoch:0 Loss 4.0391 Prec@1 14.698 Prec@5 36.988
+Epoch:1 Loss 2.9969 Prec@1 26.509 Prec@5 61.318
+Epoch:2 Loss 2.6750 Prec@1 33.443 Prec@5 67.664
+Epoch:3 Loss 2.5668 Prec@1 37.800 Prec@5 70.742
+Epoch:4 Loss 2.4475 Prec@1 40.688 Prec@5 72.938
+Epoch:5 Loss 2.4275 Prec@1 43.178 Prec@5 74.096
+Epoch:0 Loss 2.3456 Prec@1 45.046 Prec@5 75.151
+Epoch:1 Loss 2.4695 Prec@1 45.357 Prec@5 75.048
+Epoch:2 Loss 2.4156 Prec@1 46.204 Prec@5 75.134
+Epoch:3 Loss 2.6486 Prec@1 42.608 Prec@5 72.661
+Epoch:4 Loss 2.5398 Prec@1 44.925 Prec@5 75.324
+Epoch:5 Loss 2.4687 Prec@1 46.204 Prec@5 76.241
+
+Epoch:0 Loss 3.2255 Prec@1 28.359 Prec@5 60.055
+Epoch:0 Loss 3.7588 Prec@1 22.480 Prec@5 51.236
+Epoch:0 Loss 3.6579 Prec@1 23.552 Prec@5 54.349
+Epoch:1 Loss 3.0712 Prec@1 31.160 Prec@5 63.773
+Epoch:2 Loss 3.8561 Prec@1 23.327 Prec@5 52.308
+Epoch:3 Loss 3.6737 Prec@1 32.941 Prec@5 63.393
+
+Epoch:0 Loss 3.3292 Prec@1 27.270 Prec@5 58.586
+Epoch:1 Loss 3.3656 Prec@1 29.051 Prec@5 58.637
+Epoch:2 Loss 3.3763 Prec@1 32.457 Prec@5 63.808
+Epoch:3 Loss 2.6827 Prec@1 43.576 Prec@5 73.163
+Epoch:4 Loss 2.9079 Prec@1 41.380 Prec@5 69.652
+Epoch:5 Loss 3.3809 Prec@1 37.178 Prec@5 66.211
+Epoch:6 Loss 2.4720 Prec@1 51.600 Prec@5 78.523
+Epoch:7 Loss 2.3879 Prec@1 52.430 Prec@5 79.578
+Epoch:8 Loss 2.4366 Prec@1 52.187 Prec@5 79.941
+Epoch:9 Loss 2.4497 Prec@1 52.585 Prec@5 79.319
+Epoch:10 Loss 2.4739 Prec@1 52.499 Prec@5 79.457
+Epoch:11 Loss 2.4982 Prec@1 53.139 Prec@5 79.146
+Epoch:12 Loss 2.4899 Prec@1 53.363 Prec@5 79.682
+Epoch:13 Loss 2.4879 Prec@1 53.294 Prec@5 79.682
+Epoch:14 Loss 2.4762 Prec@1 53.087 Prec@5 79.820
+Epoch:0 Loss 2.1350 Prec@1 61.601 Prec@5 85.712
+
+Epoch:0 Loss 2.1404 Prec@1 52.153 Prec@5 82.812
+Epoch:1 Loss 2.0643 Prec@1 54.764 Prec@5 83.815
+Epoch:2 Loss 2.7729 Prec@1 47.104 Prec@5 78.402
+Epoch:3 Loss 2.4863 Prec@1 53.173 Prec@5 81.480
+Epoch:4 Loss 2.6292 Prec@1 50.787 Prec@5 79.405
+Epoch:5 Loss 2.6292 Prec@1 51.375 Prec@5 81.117
+Epoch:6 Loss 2.1757 Prec@1 58.464 Prec@5 85.561
+Epoch:7 Loss 2.1884 Prec@1 58.914 Prec@5 85.803
+Epoch:8 Loss 2.1950 Prec@1 58.983 Prec@5 85.838
+Epoch:9 Loss 2.1831 Prec@1 59.346 Prec@5 86.028
+Epoch:0 Loss 1.9656 Prec@1 65.747 Prec@5 87.976
+Epoch:0 Loss 1.9015 Prec@1 55.698 Prec@5 85.025
+Epoch:1 Loss 2.1053 Prec@1 55.542 Prec@5 84.973
+Epoch:2 Loss 2.1710 Prec@1 54.799 Prec@5 83.849
+Epoch:3 Loss 2.2688 Prec@1 55.317 Prec@5 83.261
+Epoch:4 Loss 2.3227 Prec@1 55.836 Prec@5 82.812
+Epoch:5 Loss 2.2812 Prec@1 56.666 Prec@5 84.420
+Epoch:6 Loss 2.2121 Prec@1 57.583 Prec@5 84.437
+Epoch:7 Loss 2.2339 Prec@1 56.960 Prec@5 84.627
+Epoch:8 Loss 2.2348 Prec@1 57.358 Prec@5 84.697
+Epoch:9 Loss 2.2456 Prec@1 58.049 Prec@5 84.489
+Epoch:0 Loss 1.9715 Prec@1 64.057 Prec@5 87.737
+
+Epoch:0 Loss 2.5622 Prec@1 52.931 Prec@5 82.743
+Epoch:1 Loss 2.6004 Prec@1 54.245 Prec@5 83.521
+Epoch:2 Loss 2.7947 Prec@1 53.363 Prec@5 81.204
+Epoch:3 Loss 2.7969 Prec@1 53.726 Prec@5 81.912
+Epoch:4 Loss 2.7677 Prec@1 54.764 Prec@5 82.708
+Epoch:5 Loss 2.9823 Prec@1 53.726 Prec@5 81.100
+Epoch:6 Loss 2.7664 Prec@1 56.545 Prec@5 83.261
+Epoch:7 Loss 2.7469 Prec@1 56.925 Prec@5 83.451
+Epoch:8 Loss 2.7553 Prec@1 56.995 Prec@5 83.555
+Epoch:9 Loss 2.7360 Prec@1 57.289 Prec@5 83.867
+Epoch:0 Loss 2.4472 Prec@1 63.913 Prec@5 86.477
+
+Epoch:0 Loss 2.8365 Prec@1 48.072 Prec@5 75.826
+Epoch:1 Loss 2.6250 Prec@1 51.133 Prec@5 79.578
+Epoch:2 Loss 2.6024 Prec@1 52.464 Prec@5 81.325
+Epoch:3 Loss 2.7328 Prec@1 52.516 Prec@5 81.290
+Epoch:4 Loss 2.6383 Prec@1 54.712 Prec@5 82.051
+Epoch:5 Loss 2.6931 Prec@1 54.159 Prec@5 81.705
+Epoch:6 Loss 2.6618 Prec@1 54.626 Prec@5 82.310
+Epoch:7 Loss 2.6587 Prec@1 54.799 Prec@5 82.224
+Epoch:8 Loss 2.6620 Prec@1 54.989 Prec@5 82.155
+
+rgbd-fusion: full resolution input 112x112
+Epoch:0 Loss 3.1183 Prec@1 44.527 Prec@5 75.566
+Epoch:1 Loss 2.5267 Prec@1 51.012 Prec@5 81.325
+Epoch:2 Loss 2.3732 Prec@1 56.925 Prec@5 84.714
+Epoch:3 Loss 3.0457 Prec@1 51.254 Prec@5 78.800
+Epoch:4 Loss 2.3850 Prec@1 60.643 Prec@5 86.979
+Epoch:5 Loss 2.4507 Prec@1 60.678 Prec@5 87.221
+Epoch:6 Loss 2.4649 Prec@1 60.833 Prec@5 87.429
+Epoch:7 Loss 2.5049 Prec@1 61.698 Prec@5 87.636
+Epoch:8 Loss 2.5284 Prec@1 61.266 Prec@5 87.705
+Epoch:9 Loss 2.5004 Prec@1 61.110 Prec@5 87.930
+Test:0 Loss 2.2255 Prec@1 66.257 Prec@5 90.018
+
+Depth Single stream- full resolution input 112x112
+Epoch:0 Loss 4.3067 Prec@1 15.373 Prec@5 39.478
+Epoch:1 Loss 3.7671 Prec@1 28.878 Prec@5 63.877
+Epoch:2 Loss 3.2437 Prec@1 35.189 Prec@5 68.269
+Epoch:3 Loss 3.1743 Prec@1 37.973 Prec@5 71.036
+Epoch:4 Loss 3.1138 Prec@1 40.273 Prec@5 71.831
+Epoch:5 Loss 2.7918 Prec@1 41.207 Prec@5 72.056
+Epoch:6 Loss 2.2920 Prec@1 54.989 Prec@5 81.117
+Epoch:7 Loss 2.3773 Prec@1 53.692 Prec@5 80.961
+Epoch:8 Loss 2.4691 Prec@1 53.605 Prec@5 80.252
+Epoch:9 Loss 2.3801 Prec@1 54.090 Prec@5 81.065
+Test:0 Loss 1.8743 Prec@1 62.095 Prec@5 88.455
+
+RGB Single stream- full resolution input 112x112
+Epoch:0 Loss 3.6733 Prec@1 22.393 Prec@5 53.294
+Epoch:1 Loss 3.3498 Prec@1 31.575 Prec@5 65.364
+Epoch:2 Loss 2.6816 Prec@1 39.651 Prec@5 71.503
+Epoch:3 Loss 3.0353 Prec@1 34.774 Prec@5 67.941
+Epoch:4 Loss 3.7079 Prec@1 33.823 Prec@5 61.629
+Epoch:5 Loss 3.7460 Prec@1 32.440 Prec@5 63.306
+Epoch:6 Loss 2.1246 Prec@1 56.078 Prec@5 84.766
+Epoch:7 Loss 1.9959 Prec@1 57.462 Prec@5 85.924
+Epoch:8 Loss 2.0821 Prec@1 57.047 Prec@5 85.423
+Epoch:9 Loss 2.0820 Prec@1 57.548 Prec@5 85.129
+Test:0 Loss 1.6633 Prec@1 63.435 Prec@5 89.396
+
+Fine-tuning using trained models on full resolution
+Epoch:0 Loss 3.6079 Prec@1 45.236 Prec@5 71.849
+Epoch:1 Loss 3.5417 Prec@1 47.449 Prec@5 74.373
+Epoch:2 Loss 2.9061 Prec@1 53.415 Prec@5 80.840
+Epoch:3 Loss 3.7632 Prec@1 45.444 Prec@5 72.091
+Epoch:4 Loss 2.3980 Prec@1 59.104 Prec@5 85.976
+Epoch:5 Loss 2.4190 Prec@1 59.191 Prec@5 85.855
+Epoch:6 Loss 2.5077 Prec@1 59.312 Prec@5 85.336
+Epoch:7 Loss 2.5606 Prec@1 59.329 Prec@5 85.578
+Epoch:8 Loss 2.5135 Prec@1 59.865 Prec@5 85.751
+Epoch:9 Loss 2.4964 Prec@1 60.228 Prec@5 85.993
+Epoch:0 Loss 2.1764 Prec@1 63.515 Prec@5 87.737
+
+rgbd-fusion: full resolution input 112x112 extension:
+Epoch:0 Loss 2.4877 Prec@1 61.179 Prec@5 88.120
+Epoch:1 Loss 2.5617 Prec@1 61.110 Prec@5 87.602
+Epoch:2 Loss 2.5512 Prec@1 61.318 Prec@5 87.792
+Epoch:3 Loss 2.5717 Prec@1 61.145 Prec@5 87.792
+Epoch:4 Loss 2.5765 Prec@1 61.283 Prec@5 87.792
+Test:0 Loss 2.3133 Prec@1 65.843 Prec@5 89.555
+
+Epoch:0 Loss 1.5986 Prec@1 59.703 Prec@5 86.238
+Epoch:0 Loss 1.9830 Prec@1 52.591 Prec@5 80.721
+Epoch:0 Loss 1.6633 Prec@1 63.435 Prec@5 89.396
+Epoch:0 Loss 1.8743 Prec@1 62.095 Prec@5 88.455
+
+
+Epoch:0 Loss 2.0366 Prec@1 50.787 Prec@5 82.085
+Epoch:1 Loss 2.3189 Prec@1 50.199 Prec@5 81.463
+Epoch:2 Loss 2.3757 Prec@1 52.879 Prec@5 81.325
+Epoch:3 Loss 2.3653 Prec@1 53.675 Prec@5 82.310
+Epoch:4 Loss 2.5910 Prec@1 51.012 Prec@5 81.515
+Epoch:5 Loss 2.6092 Prec@1 52.499 Prec@5 81.428
+Epoch:6 Loss 2.4768 Prec@1 54.055 Prec@5 82.241
+Epoch:7 Loss 2.4845 Prec@1 53.605 Prec@5 82.379
+Epoch:0 Loss 2.1090 Prec@1 45.392 Prec@5 79.993
+Epoch:1 Loss 2.1978 Prec@1 47.277 Prec@5 81.428
+Epoch:0 Loss 2.0834 Prec@1 46.291 Prec@5 79.837
+Epoch:0 Loss 2.0468 Prec@1 46.429 Prec@5 80.477
+
+Epoch:0 Loss 2.4453 Prec@1 45.253 Prec@5 77.036
+Epoch:1 Loss 2.8517 Prec@1 44.907 Prec@5 76.621
+Epoch:2 Loss 2.6962 Prec@1 49.075 Prec@5 77.555
+Epoch:3 Loss 2.9290 Prec@1 47.484 Prec@5 78.160
+Epoch:4 Loss 2.9090 Prec@1 48.210 Prec@5 77.347
+Epoch:5 Loss 3.0787 Prec@1 47.899 Prec@5 77.296
+Epoch:6 Loss 2.8643 Prec@1 51.513 Prec@5 79.716
+Epoch:7 Loss 2.9258 Prec@1 51.392 Prec@5 79.820
+Epoch:8 Loss 2.9024 Prec@1 51.790 Prec@5 80.062
+Epoch:9 Loss 2.9440 Prec@1 51.340 Prec@5 79.941
+Epoch:10 Loss 2.9503 Prec@1 51.842 Prec@5 79.837
+Epoch:11 Loss 2.9399 Prec@1 51.738 Prec@5 80.080
+Epoch:12 Loss 2.9517 Prec@1 51.461 Prec@5 79.907
+Epoch:13 Loss 2.9622 Prec@1 51.375 Prec@5 79.889
+Epoch:14 Loss 2.9530 Prec@1 51.427 Prec@5 80.080
+Epoch:0 Loss 2.0509 Prec@1 61.139 Prec@5 86.972
+
+Epoch:0 Loss 2.5820 Prec@1 41.276 Prec@5 75.048
+
+112x112
+Epoch:0 Loss 3.3157 Prec@1 24.243 Prec@5 56.113
+Epoch:1 Loss 3.7995 Prec@1 26.855 Prec@5 57.168
+Epoch:2 Loss 3.4823 Prec@1 26.249 Prec@5 57.306
+Epoch:3 Loss 3.0588 Prec@1 37.005 Prec@5 67.422
+Epoch:4 Loss 3.0767 Prec@1 35.916 Prec@5 67.353
+Epoch:5 Loss 3.0560 Prec@1 31.454 Prec@5 61.802
+Epoch:6 Loss 2.3506 Prec@1 49.732 Prec@5 79.665
+Epoch:7 Loss 2.3043 Prec@1 50.579 Prec@5 80.495
+Epoch:8 Loss 2.3618 Prec@1 49.853 Prec@5 80.149
+Epoch:9 Loss 2.3366 Prec@1 50.337 Prec@5 80.235
+Epoch:0 Loss 2.3868 Prec@1 49.991 Prec@5 79.768
+Epoch:1 Loss 2.3961 Prec@1 50.821 Prec@5 80.062
+Epoch:2 Loss 2.4271 Prec@1 49.438 Prec@5 79.786
+Epoch:3 Loss 2.4700 Prec@1 50.009 Prec@5 79.958
+Epoch:4 Loss 2.4727 Prec@1 49.905 Prec@5 79.405
+Epoch:5 Loss 2.3953 Prec@1 50.562 Prec@5 80.840
+Epoch:6 Loss 2.4236 Prec@1 50.631 Prec@5 80.702
+Epoch:7 Loss 2.4173 Prec@1 50.700 Prec@5 80.616
+Test:0 Loss 2.0761 Prec@1 55.589 Prec@5 82.778
+
+224x224 rgb modality
+Epoch:0 Loss 2.9117 Prec@1 31.887 Prec@5 62.511
+Epoch:1 Loss 3.2565 Prec@1 31.333 Prec@5 62.494
+Epoch:2 Loss 3.2017 Prec@1 29.950 Prec@5 59.882
+Epoch:3 Loss 3.0197 Prec@1 36.019 Prec@5 67.889
+Epoch:4 Loss 3.4860 Prec@1 25.419 Prec@5 53.035
+Epoch:5 Loss 2.8247 Prec@1 40.602 Prec@5 69.618
+Epoch:6 Loss 3.9320 Prec@1 27.806 Prec@5 57.323
+Epoch:7 Loss 2.9735 Prec@1 35.881 Prec@5 62.736
+Epoch:8 Loss 3.2392 Prec@1 34.204 Prec@5 62.615
+Epoch:9 Loss 3.7805 Prec@1 27.615 Prec@5 58.672
+Epoch:10 Loss 1.6284 Prec@1 60.228 Prec@5 86.529
+Epoch:11 Loss 1.7086 Prec@1 59.813 Prec@5 86.166
+Epoch:12 Loss 1.6921 Prec@1 61.612 Prec@5 86.858
+Epoch:13 Loss 1.6776 Prec@1 60.349 Prec@5 87.256
+Epoch:14 Loss 1.6698 Prec@1 60.903 Prec@5 87.135
+Epoch:15 Loss 1.6556 Prec@1 61.335 Prec@5 87.584
+Epoch:16 Loss 1.6481 Prec@1 61.283 Prec@5 87.636
+Epoch:17 Loss 1.6466 Prec@1 61.283 Prec@5 87.723
+Epoch:18 Loss 1.6507 Prec@1 61.076 Prec@5 87.550
+Epoch:19 Loss 1.6415 Prec@1 61.248 Prec@5 87.740
+Test:0 Loss 1.6121 Prec@1 63.818 Prec@5 88.279
+
+224x224 depth modality
+Epoch:0 Loss 3.1734 Prec@1 28.757 Prec@5 60.695
+Epoch:1 Loss 2.7436 Prec@1 36.901 Prec@5 69.168
+Epoch:2 Loss 2.8130 Prec@1 40.636 Prec@5 72.385
+Epoch:3 Loss 3.1529 Prec@1 33.426 Prec@5 67.456
+Epoch:4 Loss 2.9026 Prec@1 38.613 Prec@5 69.289
+Epoch:5 Loss 2.8114 Prec@1 39.789 Prec@5 70.517
+Epoch:6 Loss 2.9113 Prec@1 39.979 Prec@5 68.805
+Epoch:7 Loss 3.1690 Prec@1 37.264 Prec@5 64.465
+Epoch:8 Loss 3.2991 Prec@1 29.466 Prec@5 60.384
+Epoch:9 Loss 3.2361 Prec@1 36.140 Prec@5 65.018
+Epoch:10 Loss 2.0004 Prec@1 56.338 Prec@5 83.365
+Epoch:11 Loss 1.9714 Prec@1 56.597 Prec@5 83.348
+Epoch:12 Loss 1.9826 Prec@1 56.683 Prec@5 83.088
+Epoch:13 Loss 2.0531 Prec@1 56.389 Prec@5 83.088
+Epoch:14 Loss 2.0469 Prec@1 56.182 Prec@5 83.227
+Test:0 Loss 1.7020 Prec@1 63.562 Prec@5 88.216
+
+Epoch:0 Loss 1.6569 Prec@1 62.943 Prec@5 88.328
+Epoch:1 Loss 1.6119 Prec@1 64.188 Prec@5 89.227
+Epoch:2 Loss 1.6294 Prec@1 64.569 Prec@5 88.656
+Epoch:3 Loss 1.7253 Prec@1 63.220 Prec@5 87.775
+Epoch:4 Loss 1.7825 Prec@1 63.099 Prec@5 87.930
+Epoch:5 Loss 1.8180 Prec@1 63.116 Prec@5 87.723
+Epoch:6 Loss 1.6880 Prec@1 65.122 Prec@5 88.432
+Epoch:7 Loss 1.6856 Prec@1 65.001 Prec@5 88.587
+Epoch:8 Loss 1.6574 Prec@1 65.468 Prec@5 88.968
+Epoch:9 Loss 1.6581 Prec@1 65.606 Prec@5 89.071
+Epoch:10 Loss 1.6453 Prec@1 65.520 Prec@5 88.968
+Epoch:11 Loss 1.6435 Prec@1 65.744 Prec@5 89.141
+Epoch:12 Loss 1.6421 Prec@1 65.485 Prec@5 88.933
+Epoch:13 Loss 1.6436 Prec@1 65.485 Prec@5 88.985
+Epoch:14 Loss 1.6550 Prec@1 65.347 Prec@5 89.141
+Test:0 Loss 1.6224 Prec@1 68.984 Prec@5 89.475
+
+
+Epoch:0 Loss 1.8325 Prec@1 60.937 Prec@5 85.699
+Epoch:1 Loss 2.1875 Prec@1 59.744 Prec@5 83.175
+Epoch:2 Loss 2.0187 Prec@1 59.882 Prec@5 85.475
+Epoch:3 Loss 2.0193 Prec@1 60.574 Prec@5 84.247
+Epoch:4 Loss 2.2128 Prec@1 56.320 Prec@5 82.691
+Epoch:0 Loss 1.8801 Prec@1 60.782 Prec@5 85.250
+Epoch:1 Loss 2.2037 Prec@1 58.136 Prec@5 83.503
+Epoch:2 Loss 2.3719 Prec@1 54.228 Prec@5 83.590
+Epoch:3 Loss 1.9489 Prec@1 60.695 Prec@5 85.060
+Epoch:4 Loss 2.3985 Prec@1 56.078 Prec@5 81.013
+Epoch:5 Loss 2.2231 Prec@1 56.251 Prec@5 82.518
+Epoch:6 Loss 2.2003 Prec@1 60.436 Prec@5 83.849
+Test:0 Loss 1.6295 Prec@1 68.920 Prec@5 89.443
+
+ratio=8 in conv
+Epoch:0 Loss 2.2791 Prec@1 55.438 Prec@5 83.901
+Epoch:1 Loss 2.0670 Prec@1 58.914 Prec@5 83.970
+Epoch:2 Loss 1.8833 Prec@1 61.127 Prec@5 86.927
+Epoch:3 Loss 2.2961 Prec@1 56.874 Prec@5 82.967
+Epoch:4 Loss 2.3708 Prec@1 56.389 Prec@5 81.670
+Epoch:5 Loss 2.1774 Prec@1 56.943 Prec@5 84.039
+Epoch:6 Loss 2.1408 Prec@1 56.268 Prec@5 83.694
+Epoch:7 Loss 2.3158 Prec@1 54.505 Prec@5 81.861
+
+last layer fusion
+Epoch:0 Loss 1.5121 Prec@1 63.289 Prec@5 88.847
+Epoch:1 Loss 1.5245 Prec@1 64.275 Prec@5 88.760
+Epoch:2 Loss 1.6240 Prec@1 62.943 Prec@5 88.622
+Epoch:3 Loss 1.7042 Prec@1 63.047 Prec@5 87.532
+Epoch:4 Loss 1.6676 Prec@1 63.652 Prec@5 88.120
+Epoch:5 Loss 1.6879 Prec@1 62.978 Prec@5 87.861
+Epoch:6 Loss 1.6716 Prec@1 63.583 Prec@5 87.947
+Epoch:7 Loss 1.6915 Prec@1 63.790 Prec@5 87.342
+Epoch:8 Loss 1.6965 Prec@1 64.050 Prec@5 87.602
+Epoch:9 Loss 1.7183 Prec@1 63.583 Prec@5 88.068
+Epoch:10 Loss 1.6459 Prec@1 64.932 Prec@5 88.691
+Epoch:11 Loss 1.6595 Prec@1 64.932 Prec@5 88.674
+Epoch:12 Loss 1.6546 Prec@1 65.053 Prec@5 88.501
+Epoch:13 Loss 1.6587 Prec@1 65.001 Prec@5 88.483
+Epoch:14 Loss 1.6724 Prec@1 64.828 Prec@5 88.293
+Test:0 Loss 1.6244 Prec@1 68.601 Prec@5 89.156
+
+Third layer fusion
+Epoch:0 Loss 1.5419 Prec@1 63.721 Prec@5 89.469
+Epoch:1 Loss 1.6522 Prec@1 62.372 Prec@5 88.570
+Epoch:2 Loss 1.6579 Prec@1 64.690 Prec@5 89.348
+Epoch:3 Loss 1.7578 Prec@1 63.289 Prec@5 88.622
+Epoch:4 Loss 1.7247 Prec@1 63.445 Prec@5 88.224
+Epoch:5 Loss 1.7841 Prec@1 63.445 Prec@5 88.086
+Epoch:6 Loss 1.8451 Prec@1 62.718 Prec@5 87.999
+Epoch:7 Loss 1.7130 Prec@1 64.517 Prec@5 88.743
+Epoch:8 Loss 1.6549 Prec@1 64.344 Prec@5 88.916
+Epoch:9 Loss 1.7021 Prec@1 63.981 Prec@5 89.002
+Epoch:10 Loss 1.6382 Prec@1 64.932 Prec@5 89.262
+Epoch:11 Loss 1.6432 Prec@1 64.465 Prec@5 89.227
+Epoch:12 Loss 1.6723 Prec@1 64.171 Prec@5 88.933
+Epoch:13 Loss 1.6708 Prec@1 64.413 Prec@5 89.054
+Epoch:14 Loss 1.6856 Prec@1 63.842 Prec@5 88.950
+Test:0 Loss 1.7552 Prec@1 66.911 Prec@5 88.742
+
+Second layer fusion
+Epoch:0 Loss 1.4782 Prec@1 64.205 Prec@5 89.971
+Epoch:1 Loss 1.5374 Prec@1 63.618 Prec@5 89.694
+Epoch:2 Loss 1.5689 Prec@1 63.704 Prec@5 89.106
+Epoch:3 Loss 1.5548 Prec@1 64.776 Prec@5 89.538
+Epoch:4 Loss 1.5729 Prec@1 65.243 Prec@5 89.089
+Epoch:5 Loss 1.6436 Prec@1 64.569 Prec@5 88.086
+Epoch:6 Loss 1.7381 Prec@1 62.321 Prec@5 87.913
+Epoch:7 Loss 1.7096 Prec@1 63.133 Prec@5 87.688
+Epoch:8 Loss 1.7196 Prec@1 63.566 Prec@5 87.636
+Epoch:9 Loss 1.6746 Prec@1 64.655 Prec@5 87.757
+Epoch:10 Loss 1.6249 Prec@1 64.811 Prec@5 88.207
+Epoch:11 Loss 1.6318 Prec@1 65.018 Prec@5 88.224
+Epoch:12 Loss 1.6223 Prec@1 65.208 Prec@5 88.190
+Epoch:13 Loss 1.6151 Prec@1 65.416 Prec@5 88.328
+Epoch:14 Loss 1.6205 Prec@1 65.329 Prec@5 88.449
+Test:0 Loss 1.6862 Prec@1 67.007 Prec@5 88.439
+
+First layer fusion
+Epoch:0 Loss 1.4898 Prec@1 64.361 Prec@5 89.175
+Epoch:1 Loss 1.5205 Prec@1 64.084 Prec@5 89.279
+Epoch:2 Loss 1.6198 Prec@1 62.839 Prec@5 88.362
+Epoch:3 Loss 1.6236 Prec@1 63.514 Prec@5 88.708
+Epoch:4 Loss 1.6383 Prec@1 63.133 Prec@5 87.982
+Epoch:5 Loss 1.6719 Prec@1 63.583 Prec@5 88.224
+Epoch:6 Loss 1.7575 Prec@1 62.096 Prec@5 87.377
+Epoch:7 Loss 1.7169 Prec@1 63.081 Prec@5 87.653
+Epoch:8 Loss 1.6833 Prec@1 63.669 Prec@5 88.241
+Epoch:9 Loss 1.7539 Prec@1 62.113 Prec@5 87.619
+Epoch:10 Loss 1.6839 Prec@1 64.344 Prec@5 88.224
+Epoch:11 Loss 1.6685 Prec@1 64.586 Prec@5 88.449
+Epoch:12 Loss 1.6595 Prec@1 64.655 Prec@5 88.362
+Epoch:13 Loss 1.6827 Prec@1 64.586 Prec@5 88.328
+Epoch:14 Loss 1.6602 Prec@1 65.087 Prec@5 88.311
+Test:0 Loss 1.6714 Prec@1 67.820 Prec@5 89.093
+
+First layer fusion
+Epoch:0 Loss 1.9355 Prec@1 59.692 Prec@5 86.149
+Epoch:1 Loss 1.9397 Prec@1 62.511 Prec@5 86.789
+Epoch:2 Loss 2.1480 Prec@1 58.966 Prec@5 85.509
+Epoch:3 Loss 2.1361 Prec@1 60.194 Prec@5 85.665
+Epoch:4 Loss 2.1313 Prec@1 61.992 Prec@5 85.821
+Epoch:5 Loss 2.0396 Prec@1 61.594 Prec@5 85.907
+Epoch:6 Loss 2.2210 Prec@1 60.125 Prec@5 83.832
+Epoch:7 Loss 2.1954 Prec@1 60.367 Prec@5 84.766
+Epoch:8 Loss 2.2808 Prec@1 59.312 Prec@5 83.815
+Epoch:9 Loss 2.2665 Prec@1 59.571 Prec@5 84.247
+Epoch:10 Loss 2.1032 Prec@1 61.906 Prec@5 86.408
+
+Epoch:0 Loss 1.5814 Prec@1 63.669 Prec@5 88.397
+Epoch:1 Loss 1.6315 Prec@1 63.860 Prec@5 88.708
+Epoch:2 Loss 1.7428 Prec@1 63.306 Prec@5 88.224
+Epoch:3 Loss 1.7436 Prec@1 63.202 Prec@5 87.947
+Epoch:4 Loss 1.7309 Prec@1 63.998 Prec@5 88.276
+Epoch:5 Loss 1.7200 Prec@1 64.188 Prec@5 88.155
+Epoch:6 Loss 1.7322 Prec@1 62.217 Prec@5 88.380
+Epoch:7 Loss 1.7525 Prec@1 63.133 Prec@5 88.103
+Epoch:8 Loss 1.7502 Prec@1 63.531 Prec@5 88.224
+Epoch:9 Loss 1.7170 Prec@1 63.583 Prec@5 88.241
+Epoch:10 Loss 1.6626 Prec@1 64.655 Prec@5 89.296
+Epoch:11 Loss 1.6587 Prec@1 64.863 Prec@5 89.227
+Epoch:12 Loss 1.6713 Prec@1 64.724 Prec@5 89.210
+Epoch:13 Loss 1.6791 Prec@1 65.035 Prec@5 89.227
+Epoch:14 Loss 1.6625 Prec@1 65.105 Prec@5 89.123
+Epoch:0 Loss 1.6315 Prec@1 68.378 Prec@5 89.204
+Epoch:0 Loss 1.6314 Prec@1 68.346 Prec@5 89.236
+
+Epoch:0 Loss 1.4567 Prec@1 65.001 Prec@5 90.005
+Epoch:1 Loss 1.4837 Prec@1 64.361 Prec@5 89.729
+Epoch:2 Loss 1.5298 Prec@1 64.396 Prec@5 89.365
+Epoch:3 Loss 1.5287 Prec@1 64.620 Prec@5 89.383
+Epoch:4 Loss 1.6002 Prec@1 64.378 Prec@5 88.639
+Epoch:5 Loss 1.6132 Prec@1 64.033 Prec@5 89.089
+Epoch:6 Loss 1.6197 Prec@1 64.430 Prec@5 89.210
+Epoch:7 Loss 1.6232 Prec@1 63.514 Prec@5 89.262
+Epoch:8 Loss 1.6152 Prec@1 64.551 Prec@5 88.674
+Epoch:9 Loss 1.6045 Prec@1 64.482 Prec@5 88.812
+Epoch:10 Loss 1.6461 Prec@1 64.932 Prec@5 88.812
+Epoch:11 Loss 1.6772 Prec@1 63.618 Prec@5 88.812
+Epoch:12 Loss 1.6179 Prec@1 64.586 Prec@5 89.158
+Epoch:13 Loss 1.6886 Prec@1 63.808 Prec@5 88.483
+Epoch:14 Loss 1.7271 Prec@1 63.860 Prec@5 88.656
+Epoch:15 Loss 1.6844 Prec@1 63.600 Prec@5 88.829
+Epoch:16 Loss 1.6841 Prec@1 63.445 Prec@5 88.985
+
+Epoch:0 Loss 1.4201 Prec@1 65.399 Prec@5 89.867
+Epoch:1 Loss 1.4872 Prec@1 65.278 Prec@5 89.573
+Epoch:2 Loss 1.5119 Prec@1 64.793 Prec@5 89.556
+Epoch:3 Loss 1.5317 Prec@1 65.416 Prec@5 89.607
+Epoch:4 Loss 1.5293 Prec@1 66.211 Prec@5 89.486
+Epoch:5 Loss 1.5752 Prec@1 65.191 Prec@5 89.746
+Epoch:6 Loss 1.5553 Prec@1 65.087 Prec@5 89.711
+Epoch:7 Loss 1.5370 Prec@1 65.658 Prec@5 90.109
+Epoch:8 Loss 1.5381 Prec@1 65.623 Prec@5 89.971
+Epoch:9 Loss 1.5376 Prec@1 65.589 Prec@5 89.988
+Epoch:10 Loss 1.5592 Prec@1 65.416 Prec@5 89.884
+Epoch:11 Loss 1.5610 Prec@1 65.727 Prec@5 89.763
+Epoch:12 Loss 1.5532 Prec@1 65.416 Prec@5 89.867
+Epoch:13 Loss 1.5567 Prec@1 65.658 Prec@5 89.953
+Epoch:14 Loss 1.5538 Prec@1 65.416 Prec@5 89.867
+Test:0 Loss 1.4841 Prec@1 68.522 Prec@5 89.826
+
+Epoch:0 Loss 1.3805 Prec@1 64.828 Prec@5 90.351
+Epoch:1 Loss 1.4652 Prec@1 64.499 Prec@5 90.178
+Epoch:2 Loss 1.4401 Prec@1 65.900 Prec@5 90.282
+Epoch:3 Loss 1.4863 Prec@1 65.018 Prec@5 89.573
+Epoch:4 Loss 1.5099 Prec@1 65.070 Prec@5 89.556
+Epoch:5 Loss 1.5700 Prec@1 64.949 Prec@5 89.175
+Epoch:6 Loss 1.6286 Prec@1 64.084 Prec@5 88.795
+Epoch:7 Loss 1.5338 Prec@1 65.675 Prec@5 89.538
+Epoch:8 Loss 1.5626 Prec@1 65.105 Prec@5 89.486
+Epoch:9 Loss 1.5884 Prec@1 64.378 Prec@5 89.106
+Epoch:10 Loss 1.5538 Prec@1 65.312 Prec@5 89.175
+Epoch:11 Loss 1.5389 Prec@1 65.226 Prec@5 89.590
+Epoch:12 Loss 1.5522 Prec@1 65.053 Prec@5 89.729
+Epoch:13 Loss 1.5447 Prec@1 65.381 Prec@5 89.573
+Epoch:14 Loss 1.5693 Prec@1 65.156 Prec@5 89.331
+Epoch:0 Loss 1.4719 Prec@1 67.469 Prec@5 89.635
+Epoch:0 Loss 1.4766 Prec@1 67.565 Prec@5 89.651
+Epoch:0 Loss 1.6217 Prec@1 69.144 Prec@5 89.443
+Epoch:0 Loss 1.6235 Prec@1 68.952 Prec@5 89.523
+Epoch:0 Loss 1.6258 Prec@1 68.904 Prec@5 89.555
+Epoch:0 Loss 1.6200 Prec@1 68.952 Prec@5 89.412
+Epoch:0 Loss 1.5494 Prec@1 63.514 Prec@5 89.504
+Epoch:1 Loss 1.6380 Prec@1 64.240 Prec@5 88.380
+Epoch:2 Loss 1.6236 Prec@1 64.741 Prec@5 88.345
+Epoch:3 Loss 1.7062 Prec@1 63.790 Prec@5 87.826
+Epoch:4 Loss 1.6323 Prec@1 64.344 Prec@5 88.916
+Epoch:5 Loss 1.7492 Prec@1 62.459 Prec@5 88.605
+Epoch:6 Loss 1.6461 Prec@1 63.704 Prec@5 89.486
+Epoch:7 Loss 1.7921 Prec@1 60.764 Prec@5 87.290
+Epoch:8 Loss 1.7196 Prec@1 64.240 Prec@5 89.037
+Epoch:9 Loss 1.7180 Prec@1 63.946 Prec@5 88.086
+Epoch:10 Loss 1.6060 Prec@1 65.589 Prec@5 89.296
+Epoch:11 Loss 1.6030 Prec@1 65.693 Prec@5 89.590
+Epoch:12 Loss 1.5881 Prec@1 66.436 Prec@5 89.832
+Epoch:13 Loss 1.5894 Prec@1 66.125 Prec@5 89.659
+Epoch:14 Loss 1.5925 Prec@1 66.159 Prec@5 89.331
+Epoch:0 Loss 1.7470 Prec@1 67.182 Prec@5 88.742
+Epoch:0 Loss 1.7535 Prec@1 67.374 Prec@5 88.678
+
+Epoch:0 Loss 1.5678 Prec@1 60.712 Prec@5 87.290
+Epoch:1 Loss 1.6261 Prec@1 61.179 Prec@5 86.599
+Epoch:2 Loss 1.6925 Prec@1 61.352 Prec@5 85.993
+Epoch:3 Loss 1.8107 Prec@1 60.159 Prec@5 85.094
+Epoch:4 Loss 1.8733 Prec@1 59.606 Prec@5 85.509
+Epoch:5 Loss 1.8178 Prec@1 61.093 Prec@5 85.250
+Epoch:6 Loss 1.8391 Prec@1 61.663 Prec@5 85.907
+Epoch:7 Loss 1.8985 Prec@1 60.609 Prec@5 85.475
+Epoch:8 Loss 1.8524 Prec@1 60.868 Prec@5 85.354
+Epoch:9 Loss 1.9967 Prec@1 60.315 Prec@5 83.936
+Epoch:10 Loss 1.8610 Prec@1 61.767 Prec@5 85.561
+Epoch:11 Loss 1.8752 Prec@1 62.044 Prec@5 85.457
+Epoch:12 Loss 1.8615 Prec@1 61.819 Prec@5 85.699
+Epoch:13 Loss 1.8689 Prec@1 61.715 Prec@5 85.630
+Epoch:14 Loss 1.8681 Prec@1 61.560 Prec@5 85.544
+Test: Loss 1.6455 Prec@1 65.439 Prec@5 89.059
+
+Epoch:0 Loss 1.6695 Prec@1 59.122 Prec@5 85.215
+Epoch:1 Loss 1.6905 Prec@1 62.753 Prec@5 86.944
+Epoch:2 Loss 1.6624 Prec@1 63.652 Prec@5 87.999
+Epoch:3 Loss 1.6943 Prec@1 62.096 Prec@5 87.498
+Epoch:4 Loss 1.7627 Prec@1 63.047 Prec@5 87.878
+Epoch:5 Loss 1.8239 Prec@1 62.545 Prec@5 86.910
+Epoch:6 Loss 1.8188 Prec@1 62.303 Prec@5 86.944
+Epoch:7 Loss 1.8699 Prec@1 61.508 Prec@5 87.031
+Epoch:8 Loss 1.8292 Prec@1 61.819 Prec@5 86.754
+Epoch:9 Loss 1.9258 Prec@1 61.473 Prec@5 86.616
+Epoch:10 Loss 1.8882 Prec@1 62.563 Prec@5 86.841
+Epoch:11 Loss 1.8648 Prec@1 62.909 Prec@5 87.135
+Epoch:12 Loss 1.9118 Prec@1 62.165 Prec@5 86.841
+Epoch:13 Loss 1.8953 Prec@1 62.476 Prec@5 86.754
+Epoch:14 Loss 1.9022 Prec@1 62.494 Prec@5 87.014
+Test: Loss 1.6160 Prec@1 66.938 Prec@5 89.091

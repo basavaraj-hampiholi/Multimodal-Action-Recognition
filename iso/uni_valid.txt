@@ -1,0 +1,1 @@
+Epoch:0 Loss 1.8743 Prec@1 62.095 Prec@5 88.455
