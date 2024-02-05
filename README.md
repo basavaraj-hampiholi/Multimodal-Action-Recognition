@@ -32,7 +32,7 @@ After training individual models, use their weights to initialize two-stream net
 ## References
 1. P. Molchanov, X. Yang, S. Gupta, K. Kim, S. Tyree, and J. Kautz, "Online detection and classification of dynamic hand gestures with recurrent 3D convolutional neural networks", Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), pp. 4207-4215, Jun. 2016.
 2. J. Wan, S. Z. Li, Y. Zhao, S. Zhou, I. Guyon, and S. Escalera, "ChaLearn looking at people RGB-D isolated and continuous datasets for gesture recognition", Proc. IEEE Conf. Comput. Vis. Pattern Recognit. Workshops (CVPRW), pp. 761-769, Jun. 2016.
-3. J. Wan, S. Z. Li, Y. Zhao, S. Zhou, I. Guyon, and S. Escalera, "ChaLearn looking at people RGB-D isolated and continuous datasets for gesture recognition", Proc. IEEE Conf. Comput. Vis. Pattern Recognit. Workshops (CVPRW), pp. 761-769, Jun. 2016.
+3. G. Benitez-Garcia, J. Olivares-Mercado, G. Sanchez-Perez and K. Yanai, "IPN hand: A video dataset and benchmark for real-time continuous hand gesture recognition", Proc. 25th Int. Conf. Pattern Recognit. (ICPR), pp. 4340-4347, Jan. 2021.
    
 ## Acknowledgements
 1. We thank piergiaj (https://github.com/piergiaj/pytorch-i3d) for open sourcing the trained weights of i3d. We use them to initialize individual streams.
