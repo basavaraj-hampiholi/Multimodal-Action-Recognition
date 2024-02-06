@@ -37,7 +37,7 @@ First, clone the repository using - git clone -r https://github.com/basavaraj-ha
    4. Execute <b><i>train_i3d_two_stream.py</i></b> to train the fusion model.
       This should start the training as per the configurations specified in <b><i>config_beide.py</i></b>.
 
-### Tesing
+### Evaluation
 
 After the second phase of training, the weights are stored in save_model directory.
 Load these weights and execute <b><i>test.py</i></b> file to record the predictions on test data.
