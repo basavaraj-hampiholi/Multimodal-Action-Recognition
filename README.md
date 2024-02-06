@@ -19,7 +19,9 @@ The IPN hand dataset [3] focuses on gestures that are relevant to interaction wi
 
 ## How to run the code
 
-First, clone the repository using - git clone -r https://github.com/basavaraj-hampiholi/Multimodal-Action-Recognition.git
+First, clone the repository using:-
+
+git clone -r https://github.com/basavaraj-hampiholi/Multimodal-Action-Recognition.git
 
 ### Training
 
