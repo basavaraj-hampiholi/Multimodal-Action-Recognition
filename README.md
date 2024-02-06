@@ -49,5 +49,5 @@ Load these weights and execute <b><i>test.py</i></b> file to record the predicti
 3. G. Benitez-Garcia, J. Olivares-Mercado, G. Sanchez-Perez and K. Yanai, "IPN hand: A video dataset and benchmark for real-time continuous hand gesture recognition", Proc. 25th Int. Conf. Pattern Recognit. (ICPR), pp. 4340-4347, Jan. 2021.
    
 ## Acknowledgements
-1. We thank piergiaj (https://github.com/piergiaj/pytorch-i3d) for open sourcing the trained weights of i3d. We use them to initialize individual streams.
-2. We also use a piece of code for an efficient attention module from - https://github.com/cmsflash/efficient-attention. We thank the authors for this. 
+1. We thank piergiaj (https://github.com/piergiaj/pytorch-i3d) for the trained weights of i3d (open source). We use them to initialize individual streams.
+2. We also use a piece of code for an efficient attention module from - https://github.com/cmsflash/efficient-attention. 
