@@ -20,4 +20,4 @@ num_workers = 8
 num_classes = 25
 clip_st = 8
 clip_end = 72
-seg_len = 64
+seg_len = 192
