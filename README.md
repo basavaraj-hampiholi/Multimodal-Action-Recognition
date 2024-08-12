@@ -9,7 +9,7 @@ Gesture recognition defines an important information channel in human-computer i
    
 NVGesture [1] is an in-car dynamic hand gesture recognition dataset captured from multiple viewpoints using multiple sensors. NVGesture contains gesture videos of three different modalities viz. RGB, depth, and infrared (IR). The videos are recorded at the rate of 30fps and with a resolution of 320×240 pixels. The dataset consists of 1,532 gesture videos with 25 different classes of hand gestures. The dataset is split into a training set with 1,050 samples and a test set with 482 samples. The gestures were captured from 20 different individuals. IR videos do not have the same viewpoint as RGB and depth videos. Therefore, we use only RGB and depth modalities for our experiments.
 
-Note: NVGesture videos contain an action in a specific set of frames. Run readdata.py script - specify the location of the dataset. This script extracts 80 frames per video that contain an action.
+**Note: NVGesture videos contain an action in a specific set of frames. Run readdata.py script - specify the location of the dataset. This script extracts 80 frames per video that contain an action.**
 
 2. Download IsoGD dataset from - http://www.cbsr.ia.ac.cn/users/jwan/database/isogd.html
 
