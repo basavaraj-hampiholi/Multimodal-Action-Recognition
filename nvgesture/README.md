@@ -25,7 +25,7 @@ and place them in the load_checkpoint directory.
     
 Execute the following command to evaluate the model:-
 
-        CUDA_VISIBLE_DEVICES=0 python3 test_two_stream.py --datadir '/path/to/data/directory' --load_checkpoint './load_checkpoint/nv_fusion_best.pt'
+        CUDA_VISIBLE_DEVICES=0 python3 test_two_stream.py --datadir '/path/to/data/directory' --load_checkpoint './load_checkpoint/nv_fusion_best_87_76.pt'
 
 ## Train two-stream fusion network 
 
