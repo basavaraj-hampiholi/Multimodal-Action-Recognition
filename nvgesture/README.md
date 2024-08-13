@@ -5,6 +5,7 @@ NVGesture [1] is an in-car dynamic hand gesture recognition dataset captured fro
 ## Download
 
 Download this dataset from - https://research.nvidia.com/publication/2016-06_online-detection-and-classification-dynamic-hand-gestures-recurrent-3d
+
 Unzip videos using the command:-   
 
             7z x nvGesture_v1.7z.001
