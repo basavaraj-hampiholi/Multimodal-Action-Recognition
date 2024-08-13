@@ -14,7 +14,7 @@ Unzip videos using the command:-
 
 The videos in NVGesture dataset contain the action in a specific time frame. We extract the frames of both the modalities between the time frame using the following script:- 
             
-            python readdata.py --datadir '/storage/hampiholi/datasets/nvgesture/'
+            python readdata.py --datadir '/path/to/data/directory/'
 
 In the end, you should get 80 frames for each of the video samples. 
 
