@@ -10,6 +10,7 @@ Unzip videos using the command:-
 
             7z x nvGesture_v1.7z.001
 
+
 ## Prepare Dataset: Extract Frames from Videos
 
 The videos in the NVGesture dataset contain the action in a specific time frame. We extract the frames of both the modalities between the time frame using the following script:- 
@@ -17,6 +18,7 @@ The videos in the NVGesture dataset contain the action in a specific time frame.
             python readdata.py --datadir '/path/to/data/directory'
 
 In the end, it creates directories with 80 frames for each of the video samples. 
+
 
 ## Test two-stream fusion network 
 
@@ -26,6 +28,7 @@ and place them in the load_checkpoint directory.
 Execute the following command to evaluate the model:-
 
         CUDA_VISIBLE_DEVICES=0 python3 test_two_stream.py --datadir '/path/to/data/directory' --load_checkpoint './load_checkpoint/nv_fusion_best_87_76.pt'
+
 
 ## Train two-stream fusion network 
 
@@ -39,6 +42,13 @@ Execute the following command to train the model using a single GPU:-
 Training using Multiple GPUs - execute the following command:- 
 
         CUDA_VISIBLE_DEVICES=0,1 python3 train_two_stream.py --datadir '/path/to/data/directory' --use_dataparallel True
+
+Track the results via tensorboard- Execute the following command:-
+
+            tensorboard --logdir log
+            
+View the results in the browser  @  http://localhost:6006/
+
 
 ## References
 
