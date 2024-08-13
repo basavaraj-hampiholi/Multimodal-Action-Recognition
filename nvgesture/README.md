@@ -12,16 +12,16 @@ Unzip videos using the command:-
 
 ## Prepare Dataset: Extract Frames from Videos
 
-The videos in NVGesture dataset contain the action in a specific time frame. We extract the frames of both the modalities between the time frame using the following script:- 
+The videos in the NVGesture dataset contain the action in a specific time frame. We extract the frames of both the modalities between the time frame using the following script:- 
             
             python readdata.py --datadir '/path/to/data/directory'
 
-In the end, you should get 80 frames for each of the video samples. 
+In the end, it creates directories with 80 frames for each of the video samples. 
 
 ## Test two-stream fusion network 
 
 Download the checkpoints (mainly nv_fusion_best.pt) from https://drive.google.com/file/d/16okuJxGgzSqbbO4DE2GR4Nyr10ag_auF/view?usp=drive_link
-and place them in load_checkpoint directory. 
+and place them in the load_checkpoint directory. 
     
 Execute the following command to evaluate the model:-
 
@@ -30,13 +30,13 @@ Execute the following command to evaluate the model:-
 ## Train two-stream fusion network 
 
 Download the checkpoints (mainly rgb_best.pt and depth_best.pt) from https://drive.google.com/file/d/16okuJxGgzSqbbO4DE2GR4Nyr10ag_auF/view?usp=drive_link
-and place them in load_checkpoint directory. 
+and place them in the load_checkpoint directory. 
     
-Execute the following command to train the model using single GPU:-
+Execute the following command to train the model using a single GPU:-
 
         CUDA_VISIBLE_DEVICES=0 python3 train_two_stream.py --datadir '/path/to/data/directory' 
     
-If you want to use multiple GPUs for training then execute the following command:- 
+Training using Multiple GPUs - execute the following command:- 
 
         CUDA_VISIBLE_DEVICES=0,1 python3 train_two_stream.py --datadir '/path/to/data/directory' --use_dataparallel True
 
