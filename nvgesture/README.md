@@ -14,7 +14,7 @@ Unzip videos using the command:-
 
 The videos in NVGesture dataset contain the action in a specific time frame. We extract the frames of both the modalities between the time frame using the following script:- 
             
-            python readdata.py --datadir '/path/to/data/directory/'
+            python readdata.py --datadir '/path/to/data/directory'
 
 In the end, you should get 80 frames for each of the video samples. 
 
@@ -25,7 +25,7 @@ and place them in load_checkpoint directory.
     
 Execute the following command to evaluate the model:-
 
-        CUDA_VISIBLE_DEVICES=0 python3 test_two_stream.py --datadir '/storage/hampiholi/datasets/nvgesture' --load_checkpoint './load_checkpoint/nv_fusion_best.pt'
+        CUDA_VISIBLE_DEVICES=0 python3 test_two_stream.py --datadir '/path/to/data/directory' --load_checkpoint './load_checkpoint/nv_fusion_best.pt'
 
 ## Train two-stream fusion network 
 
@@ -34,11 +34,11 @@ and place them in load_checkpoint directory.
     
 Execute the following command to train the model using single GPU:-
 
-        CUDA_VISIBLE_DEVICES=0 python3 train_two_stream.py --datadir '/storage/hampiholi/datasets/nvgesture' 
+        CUDA_VISIBLE_DEVICES=0 python3 train_two_stream.py --datadir '/path/to/data/directory' 
     
 If you want to use multiple GPUs for training then execute the following command:- 
 
-        CUDA_VISIBLE_DEVICES=0,1 python3 train_two_stream.py --datadir '/storage/hampiholi/datasets/nvgesture' --use_dataparallel True
+        CUDA_VISIBLE_DEVICES=0,1 python3 train_two_stream.py --datadir '/path/to/data/directory' --use_dataparallel True
 
 ## References
 
