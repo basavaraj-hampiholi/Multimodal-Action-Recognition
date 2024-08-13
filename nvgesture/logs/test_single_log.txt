@@ -1,0 +1,6 @@
+
+Test accuracies of individual modalities:
+
+RGB: Epoch:0 Loss 0.8908 Prec@1 79.046 Prec@5 97.510
+Depth: Epoch:0 Loss 0.6627 Prec@1 83.610 Prec@5 96.266
+
