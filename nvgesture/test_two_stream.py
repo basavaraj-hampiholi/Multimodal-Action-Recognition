@@ -152,7 +152,7 @@ def validate(test_loader, model, criterion, epoch):
 
 def parse_args():
   parser = argparse.ArgumentParser(description='Modality optimization.')
-  parser.add_argument('--load_checkpoint', type=str, help='load best model', default='./load_checkpoint/nv_fusion_best_87_76.pt')
+  parser.add_argument('--load_checkpoint', type=str, help='load best model', default='./load_nv_checkpoints/nv_fusion_best_87_76.pt')
   parser.add_argument('--datadir', type=str, help='root path of data directory', default='/path/to/datadir')
   parser.add_argument('--lst_test_file', type=str, help='list of test files', default='./meta/nvgesture_test_correct.lst')
   parser.add_argument('--num_classes', type=int, help='output dimension', default=25)
