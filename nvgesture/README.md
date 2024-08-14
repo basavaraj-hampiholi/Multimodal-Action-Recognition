@@ -23,11 +23,11 @@ In the end, it creates directories with 80 frames for each of the video samples.
 ## Test two-stream fusion network 
 
 Download the checkpoints (mainly nv_fusion_best.pt) from https://drive.google.com/file/d/16okuJxGgzSqbbO4DE2GR4Nyr10ag_auF/view?usp=drive_link
-and place them in the load_checkpoint directory. 
+and unzip the load_nv_checkpoints into nvgesture root directory. 
     
 Execute the following command to evaluate the model:-
 
-        CUDA_VISIBLE_DEVICES=0 python3 test_two_stream.py --datadir '/path/to/data/directory' --load_checkpoint './load_checkpoint/nv_fusion_best_87_76.pt'
+        CUDA_VISIBLE_DEVICES=0 python3 test_two_stream.py --datadir '/path/to/data/directory' --load_checkpoint './load_nv_checkpoints/nv_fusion_best_87_76.pt'
 
 
 ## Train two-stream fusion network 
