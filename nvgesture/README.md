@@ -22,7 +22,7 @@ In the end, it creates directories with 80 frames for each of the video samples.
 
 ## Test two-stream fusion network 
 
-Download the checkpoints (mainly nv_fusion_best.pt) from https://drive.google.com/file/d/16okuJxGgzSqbbO4DE2GR4Nyr10ag_auF/view?usp=drive_link
+Download the checkpoints from https://drive.google.com/file/d/1PmvvNqzmd8daHOKaoHsQa_cSoqpXmkvT/view?usp=sharing
 and unzip the load_nv_checkpoints into nvgesture root directory. 
     
 Execute the following command to evaluate the model:-
