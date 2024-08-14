@@ -3,26 +3,7 @@
 ## Introduction
 Gesture recognition defines an important information channel in human-computer interaction. Intuitively, combining inputs from multiple modalities improves the recognition rate. In this work, we explore multi-modal video-based gesture recognition tasks by fusing spatio-temporal representation of relevant distinguishing features from different modalities. We present a self-attention based transformer fusion architecture to distill the knowledge from different modalities in two-stream convolutional neural networks (CNNs). For this, we introduce convolutions into the self-attention function and design the Convolutional Transformer Fusion Blocks (CTFB) for multi-modal data fusion. These fusion blocks can be easily added at different abstraction levels of the feature hierarchy in existing two-stream CNNs. In addition, the information exchange between two-stream CNNs along the feature hierarchy has so far been barely explored. We propose and evaluate different architectures for multi-level fusion pathways using CTFB to gain insights into the information flow between both streams.
 
-## Datasets
-
-1. Download this dataset from - https://research.nvidia.com/publication/2016-06_online-detection-and-classification-dynamic-hand-gestures-recurrent-3d
-   - unzip the files using the command- 7z x nvGesture_v1.7z.001
-   
-NVGesture [1] is an in-car dynamic hand gesture recognition dataset captured from multiple viewpoints using multiple sensors. NVGesture contains gesture videos of three different modalities viz. RGB, depth, and infrared (IR). The videos are recorded at the rate of 30fps and with a resolution of 320×240 pixels. The dataset consists of 1,532 gesture videos with 25 different classes of hand gestures. The dataset is split into a training set with 1,050 samples and a test set with 482 samples. The gestures were captured from 20 different individuals. IR videos do not have the same viewpoint as RGB and depth videos. Therefore, we use only RGB and depth modalities for our experiments.
-
-
-**Note: NVGesture videos contain an action in a specific set of frames. Run readdata.py script - specify the location of the dataset. This script extracts 80 frames per video that contain an action.**
-
-2. Download IsoGD dataset from - http://www.cbsr.ia.ac.cn/users/jwan/database/isogd.html
-
-Isolated gestures (IsoGD) [2]  is a large-scale multi-modal gesture recognition dataset derived from the Chalearn gesture dataset (CGD 2011). IsoGD contains gesture videos of two different modalities viz. RGB and depth with a resolution of 320×240 pixels and a frame rate of 10 fps. The dataset is user independent, which means the participants in the training set are not repeated in the test set. In total, the dataset includes 47,933 RGB-D gesture videos with 249 gesture labels. The gestures were performed by 21 different individuals. The dataset is split into a training set with 35,878 samples from 17 participants, a validation set with 5,784 samples from 2 participants, and a test set with 6,271 samples from 2 participants.
-
-3. Download the IPN hand dataset from - https://gibranbenitez.github.io/IPN_Hand/
-
-The IPN hand dataset [3] focuses on gestures that are relevant to interaction with touchless screens. It contains RGB videos with a resolution of 640×480 pixels recorded at 30fps using PC or laptop cameras. The videos are captured from 28 different scenes with 50 participants. These scenes include cluttered backgrounds and varying illumination. In total, there are 4,218 gesture instances with 13 different gesture classes. The dataset is slightly imbalanced with a majority of the samples belonging to only 2 classes. It is intended for both isolated and continuous gesture recognition tasks. We focus only on isolated gesture recognition. The dataset is randomly split into training (74%) and testing (26%) sets. For isolated gestures, the training set contains 3,117 gesture instances from 37 subjects and the test set contains 1,101 gesture instances from 13 subjects.
-
-## How to run the code
-
+## How to run the experiments
 First, clone the repository using:-
 
 git clone https://github.com/basavaraj-hampiholi/Multimodal-Action-Recognition.git
