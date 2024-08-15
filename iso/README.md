@@ -16,7 +16,7 @@ Isolated gestures (IsoGD) [2]  is a large-scale multi-modal gesture recognition 
 - Second phase of training:  
    1. If you want to skip the first phase, there are fine-tuned weights available for each modality (rbg_best and depth_best).
    2. Download those weights into nvgesture/load_model directory from - 
-      https://drive.google.com/file/d/16okuJxGgzSqbbO4DE2GR4Nyr10ag_auF/view?usp=drive_link.
+      https://drive.google.com/file/d/1WiMI3fzTZ7xP74t7KvcHpg6DeZtNutkI/view?usp=sharing
    3. Load these weights and initialize two-stream fusion network. 
    4. Execute <b><i>train_i3d_two_stream.py</i></b> to train the fusion model.
       This should start the training as per the configurations specified in <b><i>config_beide.py</i></b>.
