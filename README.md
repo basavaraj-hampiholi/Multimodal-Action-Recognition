@@ -8,7 +8,7 @@ First, clone the repository using:-
 
 git clone https://github.com/basavaraj-hampiholi/Multimodal-Action-Recognition.git
 
-Instructions are provided in respective folders
+Instructions are provided in folders to run the experiments for respective datasets.
 
 ## References
 1. P. Molchanov, X. Yang, S. Gupta, K. Kim, S. Tyree, and J. Kautz, "Online detection and classification of dynamic hand gestures with recurrent 3D convolutional neural networks", Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), pp. 4207-4215, Jun. 2016.
