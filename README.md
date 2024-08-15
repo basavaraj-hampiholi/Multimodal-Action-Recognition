@@ -8,27 +8,7 @@ First, clone the repository using:-
 
 git clone https://github.com/basavaraj-hampiholi/Multimodal-Action-Recognition.git
 
-### Training
-
-- First phase of training:
-   The code consists of three directories nvgesture, iso, and ipn that correspond to each of the datasets.
-   1. Download the i3d weights from https://github.com/piergiaj/pytorch-i3d/tree/master/models and place them in the load_model directory. 
-   2. Load the i3d weights and finetune individual models from scratch by executing train_i3d_single.py on each modality. Save the finetuned weights.
-   3. After training individual models, use their weights to initialize two-stream network and train it via <b><i>train_i3d_two_stream.py</i></b>.
-      
-- Second phase of training:  
-   1. If you want to skip the first phase, there are fine-tuned weights available for each modality (rbg_best and depth_best).
-   2. Download those weights into nvgesture/load_model directory from - 
-      https://drive.google.com/file/d/16okuJxGgzSqbbO4DE2GR4Nyr10ag_auF/view?usp=drive_link.
-   3. Load these weights and initialize two-stream fusion network. 
-   4. Execute <b><i>train_i3d_two_stream.py</i></b> to train the fusion model.
-      This should start the training as per the configurations specified in <b><i>config_beide.py</i></b>.
-
-### Evaluation
-
-After the second phase of training, the weights are stored in save_model directory.
-Load these weights and execute <b><i>test.py</i></b> file to record the predictions on test data.
-
+Instructions are provided in respective folders
 
 ## References
 1. P. Molchanov, X. Yang, S. Gupta, K. Kim, S. Tyree, and J. Kautz, "Online detection and classification of dynamic hand gestures with recurrent 3D convolutional neural networks", Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), pp. 4207-4215, Jun. 2016.
