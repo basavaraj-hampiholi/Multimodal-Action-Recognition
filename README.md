@@ -18,4 +18,4 @@ Instructions are provided in folders to run the experiments for respective datas
 ## Acknowledgements
 1. We thank piergiaj (https://github.com/piergiaj/pytorch-i3d) for the trained weights of i3d (open source). We use them to initialize individual streams.
 2. We use a piece of code for an efficient attention module from - https://github.com/cmsflash/efficient-attention. We modify it to process video data directly.
-3. We use the benchmark code of the IPN Hand dataset from - https://github.com/GibranBenitez/IPN-hand
+3. We adapt the benchmark code of the IPN Hand dataset to our experiments (https://github.com/GibranBenitez/IPN-hand) .
