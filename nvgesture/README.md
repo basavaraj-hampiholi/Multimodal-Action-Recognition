@@ -32,7 +32,7 @@ Execute the following command to evaluate the model:-
 
 ## Train two-stream fusion network 
 
-Download the checkpoints (mainly rgb_best.pt and depth_best.pt) from https://drive.google.com/file/d/16okuJxGgzSqbbO4DE2GR4Nyr10ag_auF/view?usp=drive_link
+Download the checkpoints (mainly rgb_best.pt and depth_best.pt) from [https://drive.google.com/file/d/16okuJxGgzSqbbO4DE2GR4Nyr10ag_auF/view?usp=drive_link](https://drive.google.com/file/d/1PmvvNqzmd8daHOKaoHsQa_cSoqpXmkvT/view?usp=sharing)
 and place them in the load_checkpoint directory. 
     
 Execute the following command to train the model using a single GPU:-
