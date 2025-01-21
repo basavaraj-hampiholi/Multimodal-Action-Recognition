@@ -1,0 +1,11 @@
+pip install torch==2.5.1+cu124
+pip install scikit-image==0.24.0
+pip install git+https://github.com/hassony2/torch_videovision
+pip install numpy==1.26.4
+pip install scikit-learn==1.5.1
+pip install scikit-video==1.1.11
+pip install seaborn==0.13.2
+pip install pandas==2.2.2
+pip install matplotlib==3.9.0
+pip install tensorboard==2.17.0
+pip install torchsummary
